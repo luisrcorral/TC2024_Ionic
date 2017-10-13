@@ -1,0 +1,20 @@
+<ion-view title="Progressive REST API Consumer App" id="page1">
+  <ion-content padding="true" class="has-header">
+    <h4 id="page-heading1" style="color:#000000;">Write your city</h4>
+    <form id="page-form1" class="list">
+      <label class="item item-input" id="page-input1" name="name">
+        <input type="text" placeholder=""  ng-model="mdl.city">    <!-- 1) Add your data to the model-->
+      </label>
+      
+    </form>
+    <h1> {{ cityname }}</h1>
+    <h2> {{ temperature }} </h2> 
+    <h3> {{ commentary }}  </h3> 
+
+    <img src="http://openweathermap.org/img/w/{{ icon }}.png">
+
+    <a ng-click="getData()" id="page-button1" class="button button-positive button-block">Call Progressive Get Data</a> 
+
+    <a ui-sref="page2({ city: mdl.city })" id="page-button1" class="button button-positive button-block">Call Activity Get Data </a> <!-- 2) Once in the model, we call the next state and we send the params in the model-->
+  </ion-content>
+</ion-view>

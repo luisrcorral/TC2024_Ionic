@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/luis/ionic/example2/platforms/android/build/intermediates/res/merged/debug/drawable-port-xxxhdpi/screen.png",
+        "source": "/home/luis/ionic/example2/platforms/android/res/drawable-port-xxxhdpi/screen.png"
+    },
+    {
+        "merged": "/home/luis/ionic/example4/platforms/android/build/intermediates/res/merged/debug/drawable-port-xxxhdpi/screen.png",
+        "source": "/home/luis/ionic/example4/platforms/android/res/drawable-port-xxxhdpi/screen.png"
+    }
+]

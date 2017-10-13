@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/luis/ionic/example2/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/luis/ionic/example2/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/home/luis/ionic/example4/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/luis/ionic/example4/platforms/android/res/xml/config.xml"
+    }
+]

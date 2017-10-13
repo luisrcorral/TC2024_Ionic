@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/luis/ionic/example5/platforms/android/build/intermediates/res/merged/debug/mipmap-mdpi/icon.png",
+        "source": "/home/luis/ionic/example5/platforms/android/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/luis/ionic/example2/platforms/android/build/intermediates/res/merged/debug/mipmap-mdpi/icon.png",
+        "source": "/home/luis/ionic/example2/platforms/android/res/mipmap-mdpi/icon.png"
+    }
+]

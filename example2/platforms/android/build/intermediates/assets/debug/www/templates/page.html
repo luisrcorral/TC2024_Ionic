@@ -1,0 +1,24 @@
+<ion-view title="My App" id="page1">
+  <ion-content padding="true" class="has-header">
+    <form id="page-form1" class="list">
+      <ion-toggle toggle-class="toggle-dark" id="page-toggle1" name="toggle1" ng-model="mdl.toggle1">Selection</ion-toggle>
+      <ion-item class="range range-assertive" id="page-range1">Range
+        <input type="range" value="50" min="0" max="100" step="1" name="range1"  ng-model="mdl.range1">
+      </ion-item>
+      <ion-radio id="page-radio1" name="radio1" ng-model="mdl.radio1" value='1'>Radio Option 1</ion-radio>
+      <ion-radio id="page-radio2" name="radio1" ng-model="mdl.radio1" value='2'>Radio Option 2</ion-radio>
+      <ion-checkbox id="page-checkbox1" name="chkbx1"  ng-model="mdl.chkbx1">Checkbox 1</ion-checkbox>
+      <ion-checkbox id="page-checkbox2" name="chkbx2"  ng-model="mdl.chkbx2">Checkbox 2</ion-checkbox>
+    </form>
+    <div>Data binding:<p>
+        <ul>
+          <li> Value of selector: {{ mdl.toggle1 }} </li>
+          <li> Value of spinner:  {{ mdl.range1 }} </li>
+          <li> Value of Radio Button: {{ mdl.radio1 }} </li>
+          <li> Value of Checkbox 1:   {{ mdl.chkbx1 }} </li>
+          <li> Value of Checkbox 2:   {{ mdl.chkbx2 }}  </li>
+      <!--<img src="img/0FBitsNQaSXrpJmH4bM4_blick-auf-den-rosengarten.jpg" style="display: block; width: 100%; height: auto; margin-left: auto; margin-right: auto;">-->
+    </div>
+    <a ng-click="reset()" id="page2-button9" class="button button-positive button-block">Reset</a>
+  </ion-content>
+</ion-view>

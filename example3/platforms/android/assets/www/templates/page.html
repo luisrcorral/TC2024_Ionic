@@ -1,0 +1,16 @@
+<ion-view title="Page" id="page1">
+  <ion-content padding="true" class="has-header">
+    <h4 id="page-heading1" style="color:#000000;">Write your name</h4>
+    <form id="page-form1" class="list">
+      <label class="item item-input" id="page-input1" name="name">
+        <input type="text" placeholder=""  ng-model="test.name">    <!-- 1) Add your data to the model-->
+      </label>
+      <h4 id="page-heading2" style="color:#000000;">Write your last name</h4>
+      <label class="item item-input" id="page-input2" name="lastname">
+        <input type="text" placeholder="" ng-model="test.lastname">
+      </label>
+    </form>
+    <!--<h3> {{ test.name }} {{test.lastname }} </h3> This is an example of the two-way data binding -->
+    <a ui-sref="page2({ name: test.name, lastname: test.lastname })" id="page-button1" class="button button-positive button-block">Submit </a> <!-- 2) Once in the model, we call the next state and we send the params in the model-->
+  </ion-content>
+</ion-view>
