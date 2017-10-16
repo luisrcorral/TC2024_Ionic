@@ -9,7 +9,7 @@ function ($scope, $stateParams, $http) {
 
     $scope.getData = function() {
             
-            appid = '798624fafafa92dfd9bb91e6b33d9f67';
+            appid = '';
             city = $scope.mdl.city;
             url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + appid + "&units=metric";
             
